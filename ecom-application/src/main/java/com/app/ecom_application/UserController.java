@@ -43,4 +43,7 @@ public class UserController {
         else
             return ResponseEntity.notFound().build();
     }
+
+    public void test(){
+        
 }
