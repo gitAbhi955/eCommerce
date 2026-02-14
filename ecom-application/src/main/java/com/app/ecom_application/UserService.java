@@ -15,6 +15,7 @@ public class UserService {
     private final List<User> userList =new ArrayList<User>();
 
     private long nextId = 1L;
+    private long currentId = 1L;
 
     public List<User> fetchAllUsers() {
         return userList;
