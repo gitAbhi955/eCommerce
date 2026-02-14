@@ -45,6 +45,6 @@ public class UserController {
     }
 
     public void getProducts(){
-        
+
     }
 }
